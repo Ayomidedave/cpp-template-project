@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 import os
 
-project = os.getenv("PROJECT_NAME", "default name")
-author = os.getenv("AUTHOR_NAME", "unknown")
+project = os.getenv("PROJECT_NAME", "homework-solutions")
+author = os.getenv("AUTHOR_NAME", "David")
 copyright = os.getenv("COPYRIGHT", "2024, Raul")
 
 # -- General configuration ---------------------------------------------------
